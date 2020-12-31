@@ -1,0 +1,156 @@
+1609414745258	geckodriver	INFO	Listening on 127.0.0.1:50347
+1609414748326	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JoNi\\AppData\\Local\\Temp\\rust_mozprofileMmKbHT"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609414750121	Marionette	INFO	Listening on port 50355
+1609414750409	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609414824161	geckodriver	INFO	Listening on 127.0.0.1:50422
+1609414827212	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JoNi\\AppData\\Local\\Temp\\rust_mozprofilem88gzc"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609414828853	Marionette	INFO	Listening on port 50430
+1609414829290	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609414983014	geckodriver	INFO	Listening on 127.0.0.1:50502
+1609414986072	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JoNi\\AppData\\Local\\Temp\\rust_mozprofileAZfOIr"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609414987771	Marionette	INFO	Listening on port 50510
+1609414988158	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js, line 1: GVLError: aborted
+1609415092538	geckodriver	INFO	Listening on 127.0.0.1:50609
+1609415095610	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JoNi\\AppData\\Local\\Temp\\rust_mozprofile9Ct8GQ"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609415098225	Marionette	INFO	Listening on port 50617
+1609415098272	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609415158350	geckodriver	INFO	Listening on 127.0.0.1:50679
+1609415161417	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JoNi\\AppData\\Local\\Temp\\rust_mozprofileHd7owP"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609415164450	Marionette	INFO	Listening on port 50687
+1609415164595	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609415286700	geckodriver	INFO	Listening on 127.0.0.1:50751
+1609415289757	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JoNi\\AppData\\Local\\Temp\\rust_mozprofile2bgGHb"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609415292353	Marionette	INFO	Listening on port 50759
+1609415292438	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609415554298	geckodriver	INFO	Listening on 127.0.0.1:50844
+1609415557366	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JoNi\\AppData\\Local\\Temp\\rust_mozprofile5T5iUG"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609415559938	Marionette	INFO	Listening on port 50852
+1609415560046	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609415609320	geckodriver	INFO	Listening on 127.0.0.1:50914
+1609415612388	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JoNi\\AppData\\Local\\Temp\\rust_mozprofileCTB5ro"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609415614997	Marionette	INFO	Listening on port 50922
+1609415615061	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609415820843	geckodriver	INFO	Listening on 127.0.0.1:51010
+1609415823913	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JoNi\\AppData\\Local\\Temp\\rust_mozprofileMEdl0S"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609415826459	Marionette	INFO	Listening on port 51018
+1609415826588	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609415961640	geckodriver	INFO	Listening on 127.0.0.1:51088
+1609415964699	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JoNi\\AppData\\Local\\Temp\\rust_mozprofile8J1cUR"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609415967289	Marionette	INFO	Listening on port 51096
+1609415967380	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609416043812	geckodriver	INFO	Listening on 127.0.0.1:51151
+1609416046857	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JoNi\\AppData\\Local\\Temp\\rust_mozprofilecZBrcY"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609416049459	Marionette	INFO	Listening on port 51159
+1609416049522	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609416105555	geckodriver	INFO	Listening on 127.0.0.1:51222
+1609416108611	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JoNi\\AppData\\Local\\Temp\\rust_mozprofilefgBcmy"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609416111195	Marionette	INFO	Listening on port 51230
+1609416111307	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609416217876	geckodriver	INFO	Listening on 127.0.0.1:51293
+1609416220931	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JoNi\\AppData\\Local\\Temp\\rust_mozprofile2Fm4yV"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609416223614	Marionette	INFO	Listening on port 51301
+1609416224145	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609416290988	geckodriver	INFO	Listening on 127.0.0.1:51364
+1609416294035	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JoNi\\AppData\\Local\\Temp\\rust_mozprofilejUhe4q"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609416296768	Marionette	INFO	Listening on port 51372
+1609416297206	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609416460681	geckodriver	INFO	Listening on 127.0.0.1:51439
+1609416463732	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JoNi\\AppData\\Local\\Temp\\rust_mozprofilefjAOD4"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609416466525	Marionette	INFO	Listening on port 51447
+1609416466900	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609416508464	geckodriver	INFO	Listening on 127.0.0.1:51510
+1609416511523	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JoNi\\AppData\\Local\\Temp\\rust_mozprofilemxetGA"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609416514041	Marionette	INFO	Listening on port 51518
+1609416514190	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609416524221	Marionette	INFO	Stopped listening on port 51518
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609416565159	geckodriver	INFO	Listening on 127.0.0.1:51606
+1609416568225	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JoNi\\AppData\\Local\\Temp\\rust_mozprofileP1Y1SU"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609416569884	Marionette	INFO	Listening on port 51614
+1609416570301	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609416612862	geckodriver	INFO	Listening on 127.0.0.1:51677
+1609416615909	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JoNi\\AppData\\Local\\Temp\\rust_mozprofilejSrUVA"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609416617516	Marionette	INFO	Listening on port 51685
+1609416617975	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609416626070	Marionette	INFO	Stopped listening on port 51685
+1609416651181	geckodriver	INFO	Listening on 127.0.0.1:51775
+1609416654215	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JoNi\\AppData\\Local\\Temp\\rust_mozprofilebyo6oK"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609416655869	Marionette	INFO	Listening on port 51783
+1609416656273	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609416661450	Marionette	INFO	Stopped listening on port 51783
+1609417801862	geckodriver	INFO	Listening on 127.0.0.1:51943
+1609417804923	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JoNi\\AppData\\Local\\Temp\\rust_mozprofileQPy9G2"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609417806594	Marionette	INFO	Listening on port 51951
+1609417807002	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609417812607	Marionette	INFO	Stopped listening on port 51951
+1609417850821	geckodriver	INFO	Listening on 127.0.0.1:52041
+1609417853879	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JoNi\\AppData\\Local\\Temp\\rust_mozprofileUQSOGS"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609417855527	Marionette	INFO	Listening on port 52049
+1609417855961	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609417861076	Marionette	INFO	Stopped listening on port 52049
+1609417941220	geckodriver	INFO	Listening on 127.0.0.1:52143
+1609417944290	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JoNi\\AppData\\Local\\Temp\\rust_mozprofilejN1xZ8"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609417945986	Marionette	INFO	Listening on port 52151
+1609417946368	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609417950150	Marionette	INFO	Stopped listening on port 52151
+JavaScript error: , line 0: uncaught exception: undefined

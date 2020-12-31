@@ -1,9 +1,7 @@
-import asyncio
 from asyncio import sleep
 
 import discord
 from discord import Intents
-from discord.ext import commands
 from discord.ext.commands import Bot
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from apscheduler.triggers.cron import CronTrigger
@@ -61,38 +59,34 @@ class HymBot(Bot):
         else:
             print("bot reconnected")
 
+    async def on_message(self, message):
+        if not message.author.bot:
+            # tach auch!
+            msg = message.content.lower()
+            if msg.startswith('tach'):
+                await message.channel.send('Tach auch!')
+                pass
+            await self.process_commands(message)
+
     async def status_task(self):
         while True:
-            await bot.change_presence(activity=discord.Game('/help für Hilfe'), status=discord.Status.online)
+            await self.change_presence(activity=discord.Game('HymBot ist online'), status=discord.Status.online)
             await sleep(5)
-            await self.change_presence(activity=discord.Game('HymBot ist online'), tatus=discord.Status.online)
+            await bot.change_presence(activity=discord.Game('/help für Hilfe'))
             await sleep(5)
+            await bot.change_presence(activity=discord.Game('Neu: Sag "tach" im Chat'))
+            await sleep(5)
+            await bot.change_presence(activity=discord.Game('Neu: /w2g'))
+            await sleep(5)
+
 
 
 bot = HymBot()
 
 
-@bot.command(name='offline', help='HymBot needs some sleep too...')
-async def offline(ctx):
-    print('bot goes off')
-    await ctx.send('bot goes off')
-    await bot.change_presence(activity=discord.Game('HymBot geht offline'), status=discord.Status.offline)
-    exit()
-
-
 # TODO !help
 # TODO scribble comms
+# TODO custum welcome messages
 # TODO role admin
 # TODO music bot
 
-'''
-@bot.event
-async def on_message(message):
-    # tach auch!
-    if message.author.id == bot.user.id:
-        return
-    msg = message.content.lower()
-    if msg.startswith('tach'):
-        await message.channel.send('Tach auch!')
-
-'''
