@@ -1,4 +1,3 @@
-from discord import Forbidden
 from discord.ext.commands import Cog
 
 
@@ -13,12 +12,13 @@ class Welcome(Cog):
 
     @Cog.listener()
     async def on_member_join(self, member):
-        await self.stdout.send(
+        await self.general.send(
             f"Willkommen auf dem Discord der **{member.guild.name}** {member.mention}! Hier gibt es Rollen: <#792420229242159114>")
 
     @Cog.listener()
     async def on_member_remove(self, member):
-        await self.stdout.send(f"{member.display_name} verlässt den Server {member.guild.name}.")
+        await self.general.send(f"{member.display_name} verlässt den Server {member.guild.name}.")
+
 
 def setup(bot):
     bot.add_cog(Welcome(bot))

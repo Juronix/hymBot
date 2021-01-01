@@ -29,7 +29,7 @@ class HymBot(Bot):
         self.cogs_ready = Ready()
         self.scheduler = AsyncIOScheduler()
 
-        super().__init__(command_prefix='/')
+        super().__init__(command_prefix='/', intents=Intents.all())
 
     def setup(self):
         for cog in COGS:
@@ -49,6 +49,7 @@ class HymBot(Bot):
     async def on_ready(self):
         if not self.ready:
             self.stdout = self.get_channel(792789962185113650)
+            self.general = self.get_channel(792407944306229261)
             self.loop.create_task(self.status_task())
             while not self.cogs_ready.all_ready():
                 await sleep(0.5)
