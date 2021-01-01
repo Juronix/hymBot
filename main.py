@@ -80,13 +80,10 @@ class HymBot(Bot):
             await sleep(5)
 
 
-
 bot = HymBot()
-
 
 # TODO !help
 # TODO scribble comms
 # TODO custum welcome messages
 # TODO role admin
 # TODO music bot
-

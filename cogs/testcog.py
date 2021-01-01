@@ -14,7 +14,7 @@ class Testcog(Cog):
             self.bot.cogs_ready.ready_up("testcog")
 
 
-    @command(name="testcom", aliases=["t", "tc"], hidden=True)
+    @command(name="testcom", aliases=["t", "tc"], hidden=True, help="test")
     async def testcom(self, ctx):
         await ctx.send(f"hi {ctx.author.mention}!")
 

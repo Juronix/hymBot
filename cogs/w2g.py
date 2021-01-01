@@ -13,16 +13,19 @@ class W2g(Cog):
             self.bot.cogs_ready.ready_up("w2g")
 
     @command(name='w2g', help="Erstellt einen Watch2Gether Raum.")
-    async def w2g2(self, ctx):
+    async def w2g(self, ctx):
         self.api_key = open("C:/Users/JoNi/Desktop/Bot/w2g_api_key.txt", "r").readline()
         payload = {
             "w2g_api_key": self.api_key,
             "share": "https://www.youtube.com/watch?v=p64W9QQiBr8"
         }
         r = requests.post('https://w2g.tv/rooms/create.json', json=payload)
-        streamkey = r.json()['streamkey']
-        link = f"https://w2g.tv/rooms/{streamkey}"
-        await ctx.send(link)
+        if r.status_code == 200:
+            streamkey = r.json()['streamkey']
+            link = f"https://w2g.tv/rooms/{streamkey}"
+            await ctx.send(link)
+        else:
+            await ctx.send("Etwas ist schiefgelaufen )=")
 
 
 def setup(bot):
